@@ -3,13 +3,17 @@
           display: flex;
 }
 
+.commin-width{
+  max-width: 800px;
+          margin: 0 auto;
+}
+
 /* commen style end here */
  
 /*header style start here */
 
 .navbar{
-          max-width: 800px;
-          margin: 0 auto;
+        
 }
 
 .brand{
@@ -83,13 +87,13 @@ img{
           gap: 30px;
 }
 
-input{
+.input{
     width: 100%;
 }
     p,input{
     text-align: center;
 }
-input{
+.input{
     background-color:#E95A08;
     border: none;
     /* color:green !important; */
@@ -108,22 +112,128 @@ input{
 
 /* plan section end here */
 
+/* .latest-deals-continer{
+  height: 500px;
+} */
+ .latest-deals-continer{
+  margin-bottom:30px;
+
+ }
+ .deals-conten{
+  text-align: center;
+ }
+
+.latest-deals-continer img{
+  width: 100%;
+  height: 100%;
+  
+}
+.div-1{
+  width: 40%;
+}
+.div-1 img{
+
+  height: 50%;
+ 
+}
+.div-2 img{
+
+  height: 100%;
+
+
+}
+
+.div-2{
+
+  width: 60%;
+  margin: 10px;
+}
+
+
+  /*Flower & Plants Lover section style start here */
+.flower-conten{
+          margin-top: 50px;
+            position: relative;
+}
+.flower-detils{
+    padding: 14px;
+}
+
+.imgs{
+          width: 50%;
+            position: relative;
+}
+.img-1{
+          width: 400px;
+        
+}
+
+.img-2{
+          width: 100px;
+          position: absolute;
+          top: -45px;
+          right: -20px;
+          
+}
+
+
+.join-section{
+  width: 100%;
+  position: relative;
+}
+
+.join-1{
+
+  position: relative;
+
+}
+
+.join-btn{
+  position: absolute;
+  top: 150px;
+  left: 200px;
+
+}
+button{
+  background-color: #E95A08;
+  position: relative;
+  left: -5px;
+  border: none;
+}
+  /*Flower & Plants Lover section style end here*/
 /* media screen style start here*/
 @media screen and (max-width :576px) {
+
+        /* navbar style start here */
            .hidden{
                     visibility: hidden;
           }
 
-          /* .no-hidden{
+          .no-hidden{
                     position: relative;
                     right: 20px;
-          } */
+          }
+        /* navbar style end here */
 
           .banner{
-                    width: 100%;
-              justify-content: center;
+                
           flex-direction: column-reverse;
 }
+
+.banner-img{
+        width: 100%;
+              justify-content: center;
+
+}
+
+.banner-detils{
+
+     width: 100%;
+              justify-content: center;
+
+}
+
+
 
 .pln-conten{
           text-align: center;
@@ -133,11 +243,69 @@ input{
           display: grid;
           grid-template-columns: repeat(2, 1fr);
           gap: 30px;
-
+}
       
-          
+  .flower-conten{
+          flex-direction: column;
+}
+
+.img-2{
+          visibility: hidden;
+}
+
+.imgs{
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.join-section{
+  width: 100%;
+  position: relative;
+}
+
+.join-1{
+
+  position: relative;
 
 }
+
+.join-btn{
+  position: absolute;
+  top: 50px;
+  left: 200px;
+
+}
+button{
+  background-color: #E95A08;
+  position: relative;
+  left:-5px;
+  border: none;
+
+
+
+
+}
+
+/* .latest-deals-continer img{
+  width: 100%;
+  height: 100%; */
+  
+
+.latest-deals-continer{
+  flex-direction: column;
+}
+
+.div-1 img{
+  width: 576px;
+  border-radius: 10px;
+}
+
+.div-2 img{
+  width: 576px;
+  border-radius: 15px;
+}
+
 
 }
 
